@@ -1,0 +1,24 @@
+{
+  "name": "node-js-crash-course",
+  "version": "1.0.0",
+  "description": "this is a crash course",
+  "main": "module.js",
+  "scripts": {
+    
+    "start": "node module",
+    "dev": "nodemon module"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript"
+  ],
+  "author": "Ritu Singh",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
