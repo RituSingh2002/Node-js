@@ -1,0 +1,11 @@
+let cp=require("child_process");
+// const { Console } = require("console");
+// const { Console } = require("console");
+// console.log("trying to open calculator");
+// cp.execSync("calc");
+// Console.log("trying to open vscode");
+// cp.execSync("code");
+// console.log("trying to open pepcodeing");
+// cp.execSync("start chrome https:\\www.pepcoding.com");
+let output=cp.execSync("node f1.js");
+console.log(output+"");
